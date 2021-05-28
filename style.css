@@ -1,0 +1,74 @@
+.logo{
+    float: right;
+    max-height: 45px;
+    
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    background-image: url("tlo3.jpg");
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Roboto';
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #829199;
+}
+/*.blur {
+    margin-top: 15px;
+    background-image: url(black.jpg);
+    width: 1900px;
+    height: 800px;
+    filter: blur(5px);
+    opacity: 0.3;
+  }*/
+  .grid2x2 {
+    min-height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .grid2x2 > div {
+    display: flex; 
+    flex-basis: calc(50% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .grid2x2 > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .box { margin: 20px; text-align: center; }
+
+  h1, h2, h3, h4{
+    font-family: 'Roboto';
+  }
+  iframe{
+      margin: auto;
+  }
