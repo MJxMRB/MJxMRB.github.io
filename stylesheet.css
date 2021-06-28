@@ -1,0 +1,61 @@
+/*DO NOT RUN THIS CODE*/
+
+#donotrun {
+    text-align:center;
+    margin-top:50%;
+    background-color: #666666;
+    color: transparent;
+    text-shadow: 0px 0px 3px #323232;
+    -webkit-background-clip: text;
+       -moz-background-clip: text;
+            background-clip: text;
+    
+  }
+  body {
+    background:black;
+    color:lime;
+  }
+  
+  #gfg{
+    position:absolute;
+    font-size: 20px;
+    white-space:no-wrap;
+      overflow: hidden;
+      width: 150px;
+    height: 20px;
+    
+    
+    margin-top: -22px;
+    margin-left: 60px;
+  }
+
+  #sfs{
+    position:absolute;
+    font-size: 20px;
+    white-space:no-wrap;
+      overflow: hidden;
+      width: 150px;
+    height: 20px;
+    animation: terminal 4s steps(14, end) 1;
+    
+    margin-top: -22px;
+    margin-left: 60px;
+  }
+  
+  
+  @keyframes terminal{
+      from{ width: 0;}
+  }
+  
+  span{
+      animation: cursor 1s infinite;
+    -webkit-animation:cursor 1s infinite;
+    -moz-animation:cursor 1s infinite;
+    -o-animation:cursor 1s infinite;
+  }
+  
+  @keyframes cursor{
+      to{opacity: .0;}
+  }
+  
+  /*DO NOT RUN THIS CODE*/

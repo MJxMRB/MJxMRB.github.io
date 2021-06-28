@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>MRB's website</title>
+    <style>
+        p, h1 {
+            color: green;
+        }
+    </style>
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+  
+    <script>
+        /* Add "https://api.ipify.org?format=json" statement
+           this will communicate with the ipify servers in
+           order to retrieve the IP address $.getJSON will
+           load JSON-encoded data from the server using a
+           GET HTTP request */
+  
+        $.getJSON("https://api.ipify.org?format=json",
+                                          function(data) {
+  
+            // Setting text of element P with id gfg
+            $("#gfg").html("Hello " + data.ip);
+        })
+    </script>
+</head>
+  
+<body>
+    https://itzmrb.me/®  (v 0.1)
+    <br><br>
+    MRB $<br><p id="gfg"></p> 
+    
+    MRB $<br><p id="sfs">Nice to meet you!</p> 
+
+    <p><span>|</span></p>
+
+
+    <meta http-equiv="refresh" content="9;url=https://itzmrb.me/index1/" />
+
+  
+
+</body>
+  
+</html>
